@@ -6,15 +6,14 @@
         "DI",
         "AOP",
         "REST",
-        "Hypermedia",
-        "Ray"
+        "Hypermedia"
     ],
     "license": "MIT",
     "authors": [
         {
             "name": "Akihito Koriyama",
             "email": "akihito.koriyama@gmail.com",
-            "homepage": "https://koriym.github.io/"
+            "homepage": "https://github.com/koriym"
         },
         {
             "name": "BEAR.Sunday Contributors",
@@ -22,19 +21,19 @@
         }
     ],
     "require": {
-        "php": ">=5.6.0",
-        "bear/resource": "^1.4.1",
-        "doctrine/cache": "^1.6.1",
+        "php": ">=7.0.0",
+        "bear/resource": "^1.6",
         "psr/log": "^1.0.2"
     },
   "require-dev": {
-        "phpunit/phpunit": "~5.7 < 6.0",
-        "squizlabs/php_codesniffer": "^2.8",
-        "phpmd/phpmd": "^2.6"
+        "phpunit/phpunit": "^6.2"
   },
   "autoload": {
         "psr-4": {
             "BEAR\\Sunday\\": "src/"
+        },
+        "autoload": {
+            "exclude-from-classmap": ["/docs/", "/tests/"]
         }
     },
     "autoload-dev": {
