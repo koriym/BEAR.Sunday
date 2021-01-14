@@ -1,13 +1,7 @@
 {
   "name": "bear/sunday",
   "description": "A resource-oriented application framework",
-  "keywords": [
-    "framework",
-    "DI",
-    "AOP",
-    "REST",
-    "Hypermedia"
-  ],
+  "keywords": ["framework", "DI", "AOP", "REST"],
   "license": "MIT",
   "authors": [
     {
