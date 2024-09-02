@@ -21,7 +21,7 @@ final class ConditionalResponse implements ConditionalResponseInterface
     ];
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function isModified(ResourceObject $ro, array $server): bool
     {
@@ -29,7 +29,7 @@ final class ConditionalResponse implements ConditionalResponseInterface
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getOutput(array $headers): Output
     {

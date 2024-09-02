@@ -9,7 +9,7 @@ use BEAR\Resource\ResourceObject;
 final class Header implements HeaderInterface
 {
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function __invoke(ResourceObject $ro, array $server): array
     {

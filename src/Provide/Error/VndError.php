@@ -39,7 +39,7 @@ final class VndError implements ErrorInterface
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      *
      * @noinspection ForgottenDebugOutputInspection
      */
