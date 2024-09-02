@@ -10,7 +10,7 @@ use Exception;
 final class NullError implements ErrorInterface
 {
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function handle(Exception $e, Request $request) // phpcs:disable SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly.ReferencedGeneralException
     {

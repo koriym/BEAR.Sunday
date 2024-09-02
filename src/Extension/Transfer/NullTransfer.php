@@ -9,7 +9,7 @@ use BEAR\Resource\ResourceObject;
 final class NullTransfer implements TransferInterface
 {
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      *
      * @codeCoverageIgnore
      */

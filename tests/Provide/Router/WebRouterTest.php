@@ -14,6 +14,7 @@ class WebRouterTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
+
         $this->router = new WebRouter('page://self');
     }
 

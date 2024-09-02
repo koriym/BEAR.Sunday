@@ -29,12 +29,13 @@ use const PHP_URL_PATH;
 final class WebRouter implements RouterInterface
 {
     public function __construct(
-        #[DefaultSchemeHost] private string $schemeHost,
+        #[DefaultSchemeHost]
+        private string $schemeHost,
     ) {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      *
      * @param Globals $globals
      * @param Server  $server
@@ -51,7 +52,7 @@ final class WebRouter implements RouterInterface
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function generate($name, $data)
     {

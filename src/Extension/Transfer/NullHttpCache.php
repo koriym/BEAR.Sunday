@@ -7,7 +7,7 @@ namespace BEAR\Sunday\Extension\Transfer;
 final class NullHttpCache implements HttpCacheInterface
 {
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function isNotModified(array $server): bool
     {
